@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+  >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Delete task"
+    android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/EditDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID of task"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:inputType="number"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete task"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
